@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(112, 113, 114);
+}
+
+.nav ul{
+    display: flex;
+    background-color: rgb(112, 113, 114);
+    list-style: none;
+}
+
+.box ul{
+    padding-top: 20px;
+    padding-right: 25px;
+    display: flex;
+    justify-content: space-around;
+    background-color:  rgb(38, 51, 92);
+
+}
+.box li {
+    display: inline-block;
+    border: solid 2px ;
+    padding: 5px;
+}
+.box ul h4{
+    padding-top: 7px;
+    color: rgb(134, 134, 134);
+    
+}
+
+.nav ul li {
+    margin: 15px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: rgb(241, 241, 241);
+}
+
+.nav ul li a:hover{
+    color: violet;
+}
+
+section{
+    background-color:rgb(190, 194, 218);
+    height: 70vh;
+    
+}
+
+section h1, section h3{
+   text-align: center;
+    padding-top: 25px;
+}
+
+section h1:hover{
+    color: turquoise;
+
+}
+
+section div{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+section div img{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+section h1{
+    padding: 30px;
+    padding-top:80px;
+    font-size: 3em;
+}
+section h3{
+    
+    font-size: 1.5em;
+}
+footer {
+    
+    background-color: rgb(68, 70, 75);
+    display: flex;
+    justify-content: space-between;
+    height: 25vh;
+}
+
+
+footer .imgs {
+    display: flex;
+    justify-content: center;
+    width: max-content;
+}
+
+
+.box {
+    width: 290px;
+    height: 530px;
+    background-color: rgb(38, 51, 92);
+    margin: 20px;
+    border-radius: 25px;
+    box-shadow: black 15px 12px 13px;
+    
+    
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box h2{
+    border: 2px solid black;
+    width: max-content;
+}
+.container{
+    background-color: rgb(145, 188, 216);
+}
+h2 {
+    background-color: rgb(145, 188, 216);
+}
+.box h1{
+    color: rgb(199, 158, 81);
+    text-align: center;
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.box p{
+    margin-top: 20px;
+    margin-left: 15px;
+    font-size: 18px;
+    color:antiquewhite ;
+}
+.nav h1{
+    background-color: #f1c40f;
+    width: 0;
+    
+}
+.menu {
+    background-color: #f39c12;
+    height: 700px;
+    text-align: center;
+}
+.menu h2{
+    background-color: #f39c12;
+}
+.coordonnées{
+    padding-left: 15px;
+    padding-top: 35px;
+    
+
+}
+
+.coordonnées div{
+    margin-top: 45px;
+    justify-content: center;
+}
+footer {
+    background-color: #747373;
+}
+    
+fieldset{
+    width:max-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+footer h2, footer h3, footer h4, footer h5{
+    padding-top: 40px;
+}
+footer h2{
+    background-color: #747373;
+    padding-top: 5px;
+}
